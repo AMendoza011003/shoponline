@@ -6,7 +6,8 @@ import { ButtonModule } from 'primeng/button';
 import { AvatarModule } from 'primeng/avatar';
 import { Tooltip, TooltipModule } from 'primeng/tooltip';
 import { MenuModule } from 'primeng/menu';
-
+import { CardModule } from 'primeng/card';
+import { InputTextModule } from 'primeng/inputtext';
 //Módulos PrimeNg
 const modPrime: any = [
   AvatarModule,
@@ -15,6 +16,8 @@ const modPrime: any = [
   ToolbarModule,
   TooltipModule,
   MenuModule,
+  CardModule,
+  InputTextModule,
 ];
 
 @NgModule({
