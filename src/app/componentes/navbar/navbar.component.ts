@@ -15,10 +15,12 @@ export class NavbarComponent {
           {
             label: 'Ingresar',
             icon: 'pi pi-sign-in',
+            routerLink: '/login'
           },
           {
             label: 'Registrar',
             icon: 'pi pi-user-plus',
+            routerLink: '/register'
           },
         ],
       },
